@@ -42,19 +42,19 @@ namespace NicDevs_MasterPage
             //    clientId: "",
             //    clientSecret: "");
 
-            //app.UseTwitterAuthentication(
-            //   consumerKey: "",
-            //   consumerSecret: "");
+            app.UseTwitterAuthentication(
+               consumerKey: "EIR6bLRQenfxwlZhpzcQfIrpb",
+               consumerSecret: "XX55f9CTTAvODndgmdB2noNC5u9dOEDMPFM1n4AdzuNASLm2yz");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "1490801261133993",
+               appSecret: "fadcf95cc11dda2cd6d180e75eda9e0a");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "872712714212.apps.googleusercontent.com",
+                ClientSecret = "872712714212@developer.gserviceaccount.com"
+            });
         }
     }
 }
