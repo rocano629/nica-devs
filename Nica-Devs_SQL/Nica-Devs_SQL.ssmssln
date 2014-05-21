@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # SQL Server Management Studio Solution File, Format Version 11.00
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Nica-Devs_SQL", "Nica-Devs_SQL\Nica-Devs_SQL.ssmssqlproj", "{44D7917E-9D0E-4425-BAC9-CFEDA923B317}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "NicaDevsIdentity_SQL", "NicaDevsIdentity_SQL\NicaDevsIdentity_SQL.ssmssqlproj", "{9E973427-A70C-4606-832F-A7B086BE759C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -10,6 +12,7 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{44D7917E-9D0E-4425-BAC9-CFEDA923B317}.Default|Default.ActiveCfg = Default
 		{DE68B34E-7744-4C7F-9C1F-312F84D8A600}.Default|Default.ActiveCfg = Default
+		{9E973427-A70C-4606-832F-A7B086BE759C}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
