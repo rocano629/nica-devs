@@ -52,8 +52,8 @@ namespace NicDevs_MasterPage
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = "872712714212.apps.googleusercontent.com",
-                ClientSecret = "872712714212@developer.gserviceaccount.com"
+                ClientId = "872712714212-q4hsrmu19s73q95sa75fnfk245okjgmp.apps.googleusercontent.com",
+                ClientSecret = "4OyLftXBTwbhddKsgrN_16R1"
             });
         }
     }
