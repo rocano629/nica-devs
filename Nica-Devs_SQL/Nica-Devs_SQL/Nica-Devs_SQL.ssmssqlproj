@@ -18,7 +18,14 @@
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
-      <Items />
+      <Items>
+        <FileNode Name="CREATE_TABLES_WEB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:nidevs00_ron09</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>nidevs00_ron09</AssociatedConnUserName>
+          <FullPath>CREATE_TABLES_WEB.sql</FullPath>
+        </FileNode>
+      </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
       <Items />
