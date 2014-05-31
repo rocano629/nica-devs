@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="NICA-DEVS">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=198.38.83.33;Initial Catalog=nidevs00_DEV</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>30e1e985-7470-4d93-8c1b-202cbb67426c</DataSourceID>
+</RptDataSource>

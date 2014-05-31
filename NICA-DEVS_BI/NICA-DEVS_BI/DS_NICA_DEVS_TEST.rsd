@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <DataSet Name="">
+    <Query>
+      <DataSourceReference>NICA-DEVS</DataSourceReference>
+      <CommandText>SELECT * 
+FROM [nidevs00_ron09].[T_ADDRESS]</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="ADDRESS_ID">
+        <DataField>ADDRESS_ID</DataField>
+        <rd:TypeName>System.Int64</rd:TypeName>
+      </Field>
+      <Field Name="PERSON_ID">
+        <DataField>PERSON_ID</DataField>
+        <rd:TypeName>System.Int64</rd:TypeName>
+      </Field>
+      <Field Name="ADDRESS_DESCRIPTION">
+        <DataField>ADDRESS_DESCRIPTION</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CREATE_DATE">
+        <DataField>CREATE_DATE</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="DISABLE_DATE">
+        <DataField>DISABLE_DATE</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>
