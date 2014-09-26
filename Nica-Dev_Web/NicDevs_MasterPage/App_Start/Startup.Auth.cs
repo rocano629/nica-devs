@@ -38,9 +38,9 @@ namespace NicDevs_MasterPage
             app.UseExternalSignInCookie(DefaultAuthenticationTypes.ExternalCookie);
 
             // Uncomment the following lines to enable logging in with third party login providers
-            //app.UseMicrosoftAccountAuthentication(
-            //    clientId: "",
-            //    clientSecret: "");
+            app.UseMicrosoftAccountAuthentication(
+                clientId: "000000004412A122",
+                clientSecret: "zBJGGGkmOgXnw2okHK7HckK5AQzc316o");
 
             app.UseTwitterAuthentication(
                consumerKey: "EIR6bLRQenfxwlZhpzcQfIrpb",
