@@ -1,5 +1,5 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 7%;
     padding-bottom: 20px;
 }
 
@@ -14,4 +14,54 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+
+.navbar-inverse
+{
+  border-color: #fff;
+   background-color: #fff;
+}
+
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: 20%;
+}
+
+
+#pie_nombre
+{
+   color: rgb(43, 226, 36);
+   font-size: large;
+   line-height: 8px;
+   margin-left: 45%;
+}
+
+#pie_lema
+{
+   color: rgb(78, 114, 192);
+   font-size: xx-small;
+   margin-left: 45.3%;
+}
+#linea_pie
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 6px solid aqua;
+}
+
+
+#linea_top_1
+{
+   border-top: 3px solid black;
+   margin-top:5%;
+}
+
+#linea_top_2
+{
+    border-top: 3px solid rgb(88, 236, 159);
+    margin-top:5px;
 }

@@ -17,9 +17,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Nica-Devs", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+           <!--       @Html.ActionLink("Nica-Devs", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })-->
             </div>
-            <div class="navbar-collapse collapse">
+       <!--     <div class="navbar-collapse collapse">
                 @*<ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
@@ -27,18 +27,24 @@
                 </ul>*@
                 @Html.Partial("_LoginPartial")
             </div>
+-->
         </div>
+    <hr id="linea_top_1"/>
+    <hr id="linea_top_2"/>
     </div>
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - Nica-Devs</p>
-        </footer>
+       
+        
     </div>
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 </body>
+<footer id="pie">
+              <hr id="linea_pie" />
+            <p id="pie_nombre"> Nica-Devs </p>
+            <p id="pie_lema">Más que desarrollo</p>
+        </footer>
 </html>
